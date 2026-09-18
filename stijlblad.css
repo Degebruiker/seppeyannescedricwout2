@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	
+	font-family: sans-serif;
+	margin-bottom: 1%;
+	line-height: 2;
+}
+nav {
+	position: sticky;
+	background-color: lightgray;
+	border:lightgray, 20px, solid;
+	margin-bottom: 3%; 
+	text-align: right;
+	a{
+		background-color: black;
+		color: white;
+		padding: 0.5%;
+		text-align: right;
+
+		text-decoration: none;
+	}
+}
+footer{
+	font-size: 80%;
+	margin-top: 1%;
+	border:lightgray 2px dashed;
+	padding-top: 2px;
+	background-color: lightgray;
+	text-align: right;
+	
+		a{
+		color: floralwhite;
+		margin-left: 10%;
+		
+		border: darkgray 4px solid;
+		border-radius: 3px;
+		text-decoration: none;
+		margin-right: 10%;
+		 }
+
+}
+main{
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+header{
+	position: sticky;
+	margin: 2%;
+	margin-bottom: 5%;
+	text-align: left;
+}
+h1{
+	font-size: 500%;
+	margin-bottom:;
+}
+a {
+	text-decoration: none;
+	font-style: italic;
+	color: red;
+}
+blockquote {
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Helvetica, serif;
+	margin-bottom: 5%;
+	text-align: right;
+	width: 40%;
+	margin-left: auto;
+	line-height: 1.3;
+	border-right: solid 6px lightgray;
+	padding: 1%;
+}
+p{
+	margin: 2%;
+	font-size: 110%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	width: 70%;
+}
+
+.linklist{
+	font-size: 110%;
+}
+.knop {
+	color: black;
+	border: solid, 5px, lightgray;
+	background-color: lightgray;
+	font-family: "Datatype", monospace;
+	font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  margin-right: 5%;
+  margin-left: 4%;
+  font-size: 120%;
+}
+.knop:hover {
+	background-color: darkgray;
+	border: solid, 5px, darkgray;
+	border-radius: 7px;
+}
+.knop:active {
+
+}
+
+ul {
+	margin: 2%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+.quoteblock{
+
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Helvetica, serif;
+	margin-bottom: 5%;
+	text-align: right;
+	width: 40%;
+	margin-left: auto;
+	line-height: 1.3;
+	border-right: solid 6px red;
+	padding: 1%;
+	color: red;
+	}
+blockquote span{
+	display: block;
+	color: red;
+	font-size: 50%;
+	font-style: italic;
+	font-weight: bold;
+
+	}
+h2{
+	margin-top: 1%;
+}
+img{
+	margin-top: 2%;
+	margin-right: 0%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+figure{
+	width: 900px;
+	height: 310px;	
+	margin: 0%;
+	padding: 0px;
+	text-align: justify;
+	box-sizing: border-box;
+	img{
+		margin-bottom: 0%;
+
+	}
+}
+figcaption{
+	font-style: italic;
+	font-size: 80%;
+	line-height: 1.2;
+	width: 40%;
+	margin-left: 5%;
+	margin-bottom: 4%;
+}
+.lobster-regular {
+  font-family: "Lobster", serif,cursive;
+  font-weight: bold;
+  font-style: regular;
+  font-size: 270%;
+  font-style: italic;
+  color: red;
+}
