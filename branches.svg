@@ -6,3 +6,601 @@
 <circle cx="410" cy="255" r="28" fill="#0d6efd"/><circle cx="590" cy="255" r="28" fill="#0d6efd"/>
 <text x="400" y="365" text-anchor="middle" font-family="Arial" font-size="28" fill="#1d2a3a">Branches maken samenwerken veilig</text>
 </svg>
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Basisvaardigheden - 8 interactieve lessen</title>
+
+    <link rel="stylesheet" href="stijlblad.css">
+</head>
+
+<body>
+
+
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a class="logo" href="index.html">
+
+                <span class="logo-icon">GH</span>
+
+                <span class="logo-text">
+                    GitHub Basisvaardigheden
+                    <small>ICW HARDWARE</small>
+                </span>
+
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a class="active" href="lessen.html">8 lessen</a>
+                <a href="quiz.html">Quiz</a>
+            </nav>
+
+            <button class="menu-button" type="button" aria-label="Menu">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    
+
+    <main>
+
+    
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    GITHUB BASISVAARDIGHEDEN
+                </p>
+
+                <h1>
+                    8 interactieve lessen
+                </h1>
+
+                <p class="hero-description">
+                    Werk de lessen in volgorde af. Je voortgang wordt op deze
+                    computer onthouden.
+                </p>
+
+                <a href="#lessen" class="btn btn-primary">
+                    Start met de lessen →
+                </a>
+
+            </div>
+
+            <div class="hero-side">
+                <span>LEARN</span>
+                <span>CLONE</span>
+                <span>COMMIT</span>
+                <span>BRANCH</span>
+                <span>PUSH</span>
+                <span>MERGE</span>
+            </div>
+
+        </section>
+
+
+     
+
+        <section class="section" id="lessen">
+
+            <div class="content-box">
+
+                <h2>
+                    Jouw voortgang
+                </h2>
+
+                <p class="lead">
+                    Werk de lessen in volgorde af. Je voortgang wordt op deze
+                    computer onthouden.
+                </p>
+
+                <p id="progressText">
+                    0 van 8 lessen voltooid
+                </p>
+
+                <div class="progress-wrap">
+                    <div id="progress" class="progress"></div>
+                </div>
+
+           
+
+            </div>
+
+        </section>
+
+
+    
+
+        <section class="section">
+
+            <div class="content-grid">
+
+                <!-- LES 1 -->
+
+                <article class="content-box lesson">
+
+                    <details open>
+
+                        <summary>
+                            1. Repository begrijpen
+                        </summary>
+
+                        <p>
+                            Een <strong>repository</strong> (repo) is een map
+                            voor een project. GitHub bewaart er bestanden én
+                            de geschiedenis van wijzigingen.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Zoek in jullie teamrepository de README.md en
+                            bekijk waarvoor die dient.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+               
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            2. Een repository clonen
+                        </summary>
+
+                        <p>
+                            Met <code>git clone</code> maak je een lokale kopie
+                            van een repository op je computer.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Clone de teamrepository en controleer of je de
+                            bestanden lokaal ziet.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+              
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            3. Status controleren
+                        </summary>
+
+                        <p>
+                            Met <code>git status</code> zie je welke bestanden
+                            gewijzigd, nieuw of klaar voor een commit zijn.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Wijzig één tekstbestand en voer daarna git status uit.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+              
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            4. Bestanden toevoegen aan staging
+                        </summary>
+
+                        <p>
+                            Met <code>git add</code> kies je welke wijzigingen
+                            je in de volgende commit wilt opnemen.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Voeg jouw gewijzigde bestand toe met git add.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+               
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            5. Een commit maken
+                        </summary>
+
+                        <p>
+                            Een <strong>commit</strong> is een opgeslagen
+                            momentopname van je werk. Gebruik een korte,
+                            duidelijke commitboodschap.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Maak een commit met een boodschap zoals:
+                            Voeg uitleg over branches toe.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+              
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            6. Werken met branches
+                        </summary>
+
+                        <p>
+                            Een branch laat je aan een onderdeel werken zonder
+                            de hoofdbranch meteen te wijzigen. Dit maakt
+                            samenwerken veiliger.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Maak een eigen branch voor jouw onderdeel en werk
+                            alleen daarop.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+                
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            7. Pushen naar GitHub
+                        </summary>
+
+                        <p>
+                            Met <code>git push</code> stuur je lokale commits
+                            naar de online repository op GitHub.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Push jouw branch naar GitHub en controleer of die
+                            online zichtbaar is.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+
+             
+
+                <article class="content-box lesson">
+
+                    <details>
+
+                        <summary>
+                            8. Pull request en merge
+                        </summary>
+
+                        <p>
+                            Met een pull request laat je teamleden jouw
+                            wijzigingen nakijken. Na goedkeuring kunnen ze in
+                            de hoofdbranch worden samengevoegd.
+                        </p>
+
+                        <div class="task">
+                            <strong>Opdracht:</strong>
+                            Open een pull request en beschrijf kort wat je
+                            hebt aangepast.
+                        </div>
+
+                        <label class="checkline">
+                            <input
+                                class="lesson-check"
+                                type="checkbox"
+                            >
+                            Ik heb deze les afgewerkt
+                        </label>
+
+                    </details>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="section info-section">
+
+            <div class="content-grid">
+
+                <article class="content-box">
+
+                    <h2>
+                        GitHub Basisvaardigheden
+                    </h2>
+
+                    <p>
+                        In deze acht interactieve lessen leer je stap voor
+                        stap werken met GitHub en Git.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li>Repositories begrijpen</li>
+                        <li>Een repository clonen</li>
+                        <li>Status controleren</li>
+                        <li>Bestanden toevoegen aan staging</li>
+                        <li>Commits maken</li>
+                        <li>Werken met branches</li>
+                        <li>Pushen naar GitHub</li>
+                        <li>Pull requests en merges</li>
+                    </ul>
+
+                </article>
+
+
+                <article class="content-box">
+
+                    <h2>
+                        💻 Samenwerken met GitHub
+                    </h2>
+
+                    <div class="info-item">
+
+                        <span class="info-icon">
+                            1
+                        </span>
+
+                        <div>
+                            <strong>
+                                Leer
+                            </strong>
+
+                            <p>
+                                Werk de lessen in volgorde af.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span class="info-icon">
+                            2
+                        </span>
+
+                        <div>
+                            <strong>
+                                Oefen
+                            </strong>
+
+                            <p>
+                                Voer de opdrachten uit in jullie
+                                teamrepository.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span class="info-icon">
+                            3
+                        </span>
+
+                        <div>
+                            <strong>
+                                Werk samen
+                            </strong>
+
+                            <p>
+                                Gebruik branches, commits en pull requests.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+
+                    <span class="logo-icon">
+                        GH
+                    </span>
+
+                    <span class="logo-text">
+                        GitHub Basisvaardigheden
+                        <small>ICW HARDWARE</small>
+                    </span>
+
+                </div>
+
+                <p>
+                    8 interactieve lessen over Git en GitHub.
+                </p>
+
+            </div>
+
+
+            <div class="footer-navigation">
+
+                <h3>
+                    Navigatie
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="lessen.html">
+                    8 lessen
+                </a>
+
+                <a href="quiz.html">
+                    Quiz
+                </a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>
+                    GitHub
+                </h3>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="GitHub">
+                        GH
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        YT
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        IN
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                Tip: commit vaak en schrijf duidelijke commitboodschappen.
+            </p>
+
+            <p>
+                GitHub Basisvaardigheden · ICW Hardware
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
