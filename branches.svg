@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
-<rect width="800" height="420" rx="30" fill="#eef4ff"/>
-<path d="M170 95v205" stroke="#6f42c1" stroke-width="14" stroke-linecap="round"/>
-<path d="M170 145c120 0 120 110 240 110h180" fill="none" stroke="#0d6efd" stroke-width="14" stroke-linecap="round"/>
-<circle cx="170" cy="95" r="28" fill="#6f42c1"/><circle cx="170" cy="300" r="28" fill="#6f42c1"/>
-<circle cx="410" cy="255" r="28" fill="#0d6efd"/><circle cx="590" cy="255" r="28" fill="#0d6efd"/>
-<text x="400" y="365" text-anchor="middle" font-family="Arial" font-size="28" fill="#1d2a3a">Branches maken samenwerken veilig</text>
-</svg>
